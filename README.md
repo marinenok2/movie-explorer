@@ -1,8 +1,36 @@
-# React + Vite
+# React Movie App 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A movie discovery web application built with React.
 
-Currently, two official plugins are available:
+## Features
+- Search for movies
+- Browse movie collections
+- View movie details
+- Add movies to favorites
+- Login and registration pages
+- Light and dark theme
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+- React
+- JavaScript
+- Vite
+- React Router
+- SCSS
+
+## Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+## Author
+
+[Maryna Khvoinytska](https://github.com/marinenok2)
