@@ -1,0 +1,37 @@
+.movie-list{
+  .movies{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    .movie-item{
+      width: 18%;
+      a{
+        text-align: center;
+        text-decoration: none;
+        img{
+          width: 100%;
+          object-fit: cover;
+        }
+        h3, p{
+          color: var(--colors-text);
+          margin: 10px auto;
+        }
+      }
+    }
+     @media (max-width: 768px){
+    
+   .movie-item{
+    width: 45%;
+   }
+  }
+  @media (max-width: 368px){
+   .movie-item{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   }
+  }
+  }
+ 
+}

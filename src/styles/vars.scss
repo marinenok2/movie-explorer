@@ -1,0 +1,26 @@
+:root{
+  --family: 'Nunito Sans';
+  --fs-sm: 14px;
+  --fs-md: 16px;
+  --fs-l: 20px;
+  --fs-xl: 25px;
+  --fw-light: 300;
+  --fw-normal: 600;
+  --fw-bold: 800;
+}
+body[data-theme="dark"]{
+  --colors-text:white;
+  --colors-bg: black;
+  --colors-bg-menu:rgba(0, 0, 0, 0.79);
+  --colors-ua-base: rgb(60, 60, 60);
+  --active-link-color:white;
+  --box-shadow: 2px 4px 6px 2px #1f2d36;
+}
+body[data-theme="light"]{
+  --colors-text: black;
+  --colors-bg: white;
+  --colors-bg-menu:rgba(255, 255, 255, 0.79);
+  --colors-ua-base: rgb(255, 254, 254);
+  --active-link-color:black;
+  --box-shadow: 2px 4px 6px 2px #f4f4f4;
+}

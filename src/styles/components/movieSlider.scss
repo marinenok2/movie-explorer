@@ -1,0 +1,40 @@
+.movie-slider{
+  .slide{
+    padding: 10px;
+    background-color: var(--colors-base);
+    text-align: center;
+    a{
+       color: var(--colors-text);
+        margin: 10px auto;
+        text-decoration: none;
+    }
+    img{
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+    .movie-info{
+      margin: 10px auto;
+     h3,p{
+      padding: 10px 0;
+     }
+    }
+    button{
+      margin: auto;
+      text-align: center;
+    }
+  }
+  .slick-dots{
+    bottom: -40px;
+    li{
+      button{
+        color: var(--colors-text) !important;
+        background-color: var(--colors-base) !important;
+      }
+    
+    }
+   
+  }
+  
+}
+

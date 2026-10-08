@@ -1,0 +1,49 @@
+.favorites{
+  
+  h2{
+    text-align: center;
+  }
+  .movies{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+    .movie-item{
+      width: 22%;
+      text-align: center;
+      a{
+        text-decoration: none;
+        img{
+          width: 100%;
+          object-fit: cover;
+          margin-bottom: 10px;
+        }
+        h3,p{
+          color: var(--colors-text);
+          margin-bottom: 10px;
+        }
+      }
+      button{
+        &:hover{
+          background-color: rgba(255, 0, 0, 0.478);
+        }
+        
+      }
+    }
+    @media (max-width: 768px){
+    
+   .movie-item{
+    width: 45%;
+   }
+  }
+  @media (max-width: 368px){
+   .movie-item{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   }
+  }
+
+  }
+}

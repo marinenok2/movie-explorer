@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  font-family: var(--family);
+  color: var(--colors-text);
+  font-weight: var(--fw-light);
+  background-color: var(--colors-bg);
+  font-family: var(--family);
+}
+button{
+  width:200px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: var(--colors-ua-base) ;
+  color: var(--colors-text) ;
+  box-shadow: var(--box-shadow);
+  border: none;
+  cursor: pointer;
+  &:focus{
+    border: 1px solid var(--colors-text);
+  }
+  &:hover{
+    width: 205px;
+    height: 45px;
+  }
+}

@@ -1,0 +1,36 @@
+.login{
+  margin: 20px auto;
+  text-align: center;
+   h2{
+    margin-bottom: 20px;
+  }
+  form{
+    width: 50%;
+    margin: auto;
+    border: 1px solid var(--colors-text);
+    padding: 10px;
+    .form-input{
+      width: 60%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px auto;
+      input {
+        width: 70%;
+        height: 35px;
+        padding: 5px;
+        background-color: var(--colors-bg);
+        box-shadow: var(--box-shadow);
+      }
+    }
+    @media (max-width: 768px){
+    .form-input{
+      width: 90%;
+      flex-direction: column;
+      input{
+        width: 100%;
+      }
+    }
+  }
+  }
+}
