@@ -1,23 +1,49 @@
-# React Movie App 🎬
+# 🎬 Movie Explorer
 
-A movie discovery web application built with React.
+A movie discovery web application built with **React**. Browse a movie collection, search for titles, view movie details, and organize your favorites.
 
-## Features
+## 📸 Screenshots
+
+### Home page
+![Movie Explorer home page](screenshots/home.jpg)
+
+### Movie catalog
+![Movie catalog](screenshots/catalog.jpg)
+
+### Favorites
+![Favorite movies](screenshots/favorites.jpg)
+
+## 🎥 Demo Video
+
+[▶ Watch the Movie Explorer demo](demo/movie-explorer-demo.mp4)
+
+> Click the link to open the video file on GitHub. Depending on your browser, it may open or download.
+
+## ✨ Features
+
 - Search for movies
-- Browse movie collections
+- Browse movie collections and navigate pages
 - View movie details
 - Add movies to favorites
 - Login and registration pages
 - Light and dark theme
 
-## Technologies
+## 🛠 Technologies
+
 - React
 - JavaScript
 - Vite
 - React Router
 - SCSS
 
-## Getting Started
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/marinenok2/movie-explorer.git
+cd movie-explorer
+```
 
 Install dependencies:
 
@@ -25,12 +51,14 @@ Install dependencies:
 npm install
 ```
 
-Run the development server:
+Start the development server:
 
 ```bash
 npm run dev
 ```
 
-## Author
+Open the local URL printed in the terminal (usually `http://localhost:5173`).
 
-[Maryna Khvoinytska](https://github.com/marinenok2)
+## 👩‍💻 Author
+
+**Maryna Khvoinytska** — [GitHub](https://github.com/marinenok2)
