@@ -12,9 +12,10 @@ A movie discovery web application built with **React**. Browse a movie collectio
 
 ### Favorites
 ![Favorite movies](screenshots/favorites.jpg)
-![Movie Explorer Demo](screenshots/movie-explorer-short.gif)
 
 ## 🎥 Demo Video
+
+![Movie Explorer Demo](screenshots/movie-explorer-short.gif)
 
 [▶ Watch the Movie Explorer demo](demo/movie-explorer-demo.mp4)
 
